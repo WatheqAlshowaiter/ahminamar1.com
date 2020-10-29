@@ -1,0 +1,35 @@
+{
+    "id": 2,
+    "title": "EchJS",
+    "link": "https://github.com/AhminaMar1",
+    "description": "2018",
+    "date": "2018",
+    "star": false,
+    "table": [[
+                "الوصف",
+                "تطبيقات بسيطة بالجافاسكريت"
+            ],[
+                "تفصيل أكثر",
+                "مجموعة من التطبيقات البسيطة. مبنية بلغة الجافاسكريبت.. من ضمنها: آلة حاسبة، لعبة الثعبان، مولد متاهات والمزيـــد.."
+            ],[
+                "سنة البناء",
+                "2018"
+            ],[
+                "اللغات، الإطارات، المكتبات والتقنيات المستعملة",
+                "JavaScript pure - HTML&CSS"
+            ],[
+                "عدد الأسطر البرمجية",
+                "إطلع على الGithub"
+            ],[
+                "المراجعات",
+                "لايوجد"
+            ]],
+            "pics": [
+                "./EchJavaScript/ejs0.PNG",
+                "./EchJavaScript/ejs1.gif",
+                "./EchJavaScript/ejs2.gif",
+                "./EchJavaScript/ejs3.gif",
+                "./EchJavaScript/ejs4.gif"
+            ]
+
+}

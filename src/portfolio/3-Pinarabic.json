@@ -1,0 +1,50 @@
+{
+    "id": 3,
+    "title": "Pinarabic",
+    "link": "https://Pinarabic.AhminaMar1.com",
+    "description": "2019",
+    "date": "2019",
+    "star": false,
+    "table": [[
+                "وصف الموقع",
+                "الفيزياء باللغة العربية.. منصة لخلق النقاش وإثراء المحتوى العربي في الفيزياء الحديثة."
+            ],[
+                "فكرة الموقع",
+                "كانت الفكرة في أن يعمل فريق من مختصين من مختلف التخصصات في الفيزياء، على إتاحة محتوى ذو جودة عالية على شكل مساقات.. سعياً لإثراء المحتوى العلمي باللغة العربية، الذي يكاد ينعدم خاصة في الفيزياء الحديثة.. ولما لا توسيع الفكرة (في أسماء نطاقات أخرى) لتشمل علوماً أخرى.. ك Mathinarabic, Bioinarabic.."
+            ],[
+                "سنة البناء",
+                "2019"
+            ],[
+                "اللغات، الإطارات، المكتبات والتقنيات المستعملة",
+                "PHP (pure) - Javascript (pure) - MySQL - MathType - HTML&CSS"
+            ],[
+                "عدد الأسطر البرمجية",
+                "8359"
+            ],[
+                "المراجعات",
+                "لايوجد"
+            ]],
+            "pics": [
+                "./Pinarabic/PIA1.png",
+                "./Pinarabic/PIA2.png",
+                "./Pinarabic/PIA3.png",
+                "./Pinarabic/PIA4.png",
+                "./Pinarabic/PIA5.png",
+                "./Pinarabic/PIA6.png",
+                "./Pinarabic/PIA7.png",
+                "./Pinarabic/PIA8.png",
+                "./Pinarabic/PIA9.png",
+                "./Pinarabic/PIA10.png",
+                "./Pinarabic/PIA11.png",
+                "./Pinarabic/PIA12.png",
+                "./Pinarabic/PIA13.png",
+                "./Pinarabic/PIA14.png",
+                "./Pinarabic/PIA15.png",
+                "./Pinarabic/PIA16.png",
+                "./Pinarabic/PIA17.png",
+                "./Pinarabic/PIA18.png",
+                "./Pinarabic/PIA19.png",
+                "./Pinarabic/PIA20.png"
+            ]
+
+}
