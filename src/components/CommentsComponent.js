@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import axios from 'axios';
+import {dataBaseUrlAPI} from '../data/index';
 import CommentForm from './CommentForm';
 import {funUpdateStateComments, timeCalculator, newCommentsCaseReverse} from './functionsOfComments';
 import EditCommentForm from './EditCommentForm';
@@ -7,6 +8,7 @@ import HistoryModal from './HistoryModal'
 
 const CommentsComponent = ({id_post, token_props, setToken_props}) => {
 
+    const baseUrlAPI=dataBaseUrlAPI();
 
     const [id, setId]=useState(0);
     //Comments storage
@@ -88,7 +90,7 @@ const CommentsComponent = ({id_post, token_props, setToken_props}) => {
     
 
     const getAllComments= useCallback(()=>{
-        axios.get(`http://localhost:8001/api/post/${id_post}`)
+        axios.get(`${baseUrlAPI}/post/${id_post}`)
         .then(res => 
             {    
                 setComments(res.data);
@@ -177,7 +179,7 @@ const CommentsComponent = ({id_post, token_props, setToken_props}) => {
     
                 };
 
-                axios.post(`http://localhost:8001/api/getnewcommentsbypostid/${id_post}`, {dataReq})
+                axios.post(`${baseUrlAPI}/getnewcommentsbypostid/${id_post}`, {dataReq})
                 .then(res => 
                     {
 
@@ -317,7 +319,7 @@ const CommentsComponent = ({id_post, token_props, setToken_props}) => {
                 token: token_props,
                 general_id_of_comment: id // general id
             };
-            axios.post(`http://localhost:8001/api/deletecomment`, {dataReq})
+            axios.post(`${baseUrlAPI}/deletecomment`, {dataReq})
             .then(res =>
                 {
 

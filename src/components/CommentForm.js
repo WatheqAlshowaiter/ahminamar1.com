@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {dataBaseUrlAPI} from '../data/index'
+import {dataBaseUrlAPI} from '../data/index';
 import {funUpdateStateComments} from './functionsOfComments';
 import axios from 'axios';
 
