@@ -1469,7 +1469,7 @@ ul>h2{
 @media screen and (max-width: 600px){
 	.header_text_title{
 		zoom: 0.8;
-		margin-top: 60px;
+		margin-top: 70px;
 	}
 	.menu{
 		zoom: 0.8;
@@ -1506,7 +1506,7 @@ ul>h2{
 @media screen and (max-width: 430px){
 	.header_text_title{
 		zoom: 0.7;
-		margin-top: 70px;
+		margin-top: 90px;
 	}
 	.menu{
 		zoom: 0.6;
