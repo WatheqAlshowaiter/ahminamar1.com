@@ -623,6 +623,13 @@ main{
 	margin-block-start: 0px;
     margin-block-end: 0em;
 }
+.comment_element>pre{
+	font-family: Tajawal;
+	margin-block-start: 0px;
+	margin-block-end: 0em;
+	font-size: 14px;
+
+}
 .comment_element_new-comment{
 	font-size: 15px;
 	background-color: #db5652;
