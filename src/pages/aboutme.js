@@ -14,7 +14,7 @@ export default function AboutMe() {
   return (
     <div>
       <RepairTokenAndCrawl setToken={false} post_id="0" page_name="aboutMe"/>
-      <HelmetComponent title="About me"/>
+      <HelmetComponent title="About me" title2="مليئ بشغفِ تعلمِ وممارسةِ البرمجة، تعرف علي أكثر!"/>
       <Header arrowActive="3" colorTitlesStyle={colorTitlesStyle} title1="أنا مروان احمينة" title2="مليئ بشغفِ تعلمِ وممارسةِ البرمجة، تعرف علي أكثر!"/>
       <MainAboutMe />
       <Footer />

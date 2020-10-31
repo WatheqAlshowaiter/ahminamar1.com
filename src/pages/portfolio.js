@@ -16,7 +16,7 @@ export default function Porftolio({data}) {
   return (
     <div>
       <RepairTokenAndCrawl setToken={false} post_id="0" page_name="portfolio"/>
-      <HelmetComponent title="معرض الأعمال"/>
+      <HelmetComponent title="معرض الأعمال" title2="معرض أعمال لرحلة تعلم وتطوير في الويب وتقنياته لأكثر من سبع سنوات"/>
       <Header arrowActive="2" colorTitlesStyle={colorTitlesStyle} title1="الرحاب في معرض الأعمال" title2="معرض أعمال لرحلة تعلم وتطوير في الويب وتقنياته لأكثر من سبع سنوات"/>
       <MainPortfolio data={data.allPortfolioJson.edges}/>
       <Footer />

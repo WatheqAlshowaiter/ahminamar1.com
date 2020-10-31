@@ -15,7 +15,7 @@ export default function Privacy() {
   return (
     <div>
       <RepairTokenAndCrawl setToken={false} post_id="0" page_name="privacy"/>
-      <HelmetComponent title="Privacy Policy"/>
+      <HelmetComponent title="Privacy Policy" title2="مرحبا، هنا تجد كل مايتعلق بسياسة الخصوصية وأمان الإستخدام"/>
       <Header arrowActive="1" colorTitlesStyle={colorTitlesStyle} title1="سياسة الخصوصية" title2="مرحبا، هنا تجد كل مايتعلق بسياسة الخصوصية وأمان الإستخدام"/>
       <MainPrivacy/>
       <Footer />

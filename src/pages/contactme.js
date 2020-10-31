@@ -17,7 +17,7 @@ export default function ContactMe() {
   return (
     <div>
       <RepairTokenAndCrawl setToken={setToken} post_id="0" page_name="contacMe"/>
-      <HelmetComponent title="Contact me"/>
+      <HelmetComponent title="Contact me" title2="سأكون سعيداً بالتواصل معك، فلا تتردد"/>
       <Header arrowActive="4" colorTitlesStyle={colorTitlesStyle} title1="تواصل معي" title2="سأكون سعيداً بالتواصل معك، فلا تتردد"/>
       <MainContactMe token={token}/>
       <Footer />

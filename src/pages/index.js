@@ -18,7 +18,7 @@ export default function Home({data}) {
   return (
     <div>
       <RepairTokenAndCrawl setToken={false} post_id="0" page_name="index"/>
-      <HelmetComponent title="المدونة"/>
+      <HelmetComponent title="المدونة" title2="سأفتتحها لاحقاً.. شكراً على زيارتك"/>
       <Header arrowActive="1" colorTitlesStyle={colorTitlesStyle} title1="مدونتي" title2="سأفتتحها لاحقاً.. شكراً على زيارتك"/>
       <MainHome data={allMarkdownRemark.edges}/>
       <Footer />

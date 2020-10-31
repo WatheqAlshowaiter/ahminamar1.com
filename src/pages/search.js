@@ -21,8 +21,8 @@ export default function Search({data}) {
   return (
     <div>
       <RepairTokenAndCrawl setToken={false} post_id="0" page_name="search"/>
-      <HelmetComponent title="ركن البحث"/>
-      <Header arrowActive="1" colorTitlesStyle={colorTitlesStyle} title1="إبحث في المدونة" title2="سأفتتحها لاحقاً.. شكراً على زيارتك"/>
+      <HelmetComponent title="ركن البحث" title2="أدخل كلمة البحث"/>
+      <Header arrowActive="1" colorTitlesStyle={colorTitlesStyle} title1="إبحث في المدونة" title2="أدخل كلمة البحث" />
       <MainSearch data={allMarkdownRemark.edges}/>
       <Footer />
     </div>)

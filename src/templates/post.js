@@ -21,7 +21,7 @@ export default function BlogPost({ data }) {
   return (
     <div>
       <RepairTokenAndCrawl setToken={setToken} post_id={post.frontmatter.id} page_name="porftolio"/>
-      <HelmetComponent title={'تدوينة: '+post.frontmatter.title}/>
+      <HelmetComponent title={'تدوينة: '+post.frontmatter.title} title2="مدونتي"/>
       <Header arrowActive="1" colorTitlesStyle={colorTitlesStyle} title1="مدونتي" title2={'تدوينة: '+post.frontmatter.title}/>
       <MainShowPost post={post} allPost={allPost} token={token} setToken={setToken}/> {/* post props for display the post | allpost props for similar-post-service | token & setToken props for comments-services */}
       <Footer />
