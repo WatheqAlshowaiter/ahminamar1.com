@@ -11,6 +11,7 @@ const HelmetComponent = (props) => {
         <meta name="description" content={props.title2}/>
         <meta name="keywords" content="AhminaMar1, LaraGatsby, Gatsby"/>
 
+        <meta property="og:site_name" content="Guesschallenge" />
         <meta property="og:type" content="website"/>
         <meta property="og:locale" content="ar"/>
         <meta property="og:locale:alternate" content="ar"/>
