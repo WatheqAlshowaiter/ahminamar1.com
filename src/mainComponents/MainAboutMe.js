@@ -37,18 +37,18 @@ const MainAboutMe = () => {
                             <h3>اللغات، الإطارات، المكتبات والتقنيات التي أجيدها وأستخدمها</h3>
                             <div className="aboutme_good_at noselect">             
                                 <div className="aboutme_good_at_item">PHP</div>
-                                <div className="aboutme_good_at_item">Javascript</div>
+                                <div className="aboutme_good_at_item">JavaScript</div>
                                 <div className="aboutme_good_at_item">Laravel</div>
                                 <div className="aboutme_good_at_item">ReactJS</div>
                                 <div className="aboutme_good_at_item">nodeJS</div>
-                                <div className="aboutme_good_at_item">ExpressJS</div>
+                                <div className="aboutme_good_at_item">Express.JS</div>
                                 <div className="aboutme_good_at_item">TypeScript</div>
-                                <div className="aboutme_good_at_item">EcmaScript</div>
+                                <div className="aboutme_good_at_item">ECMAScript</div>
                                 <div className="aboutme_good_at_item">C/C++</div>
                                 <div className="aboutme_good_at_item">HTML</div>
                                 <div className="aboutme_good_at_item">CSS</div>
                                 <div className="aboutme_good_at_item">Sass</div>
-                                <div className="aboutme_good_at_item">Mysql</div>
+                                <div className="aboutme_good_at_item">MySQL</div>
                                 <div className="aboutme_good_at_item">MongoDB</div>
                                 <div className="aboutme_good_at_item">GraphQL</div>
                                 <div className="aboutme_good_at_item">API</div>
